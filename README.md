@@ -1,4 +1,4 @@
-# 🏙️ Slum Risk Prediction & Optimization Analyzer  
+# 🏙️ Slum Risk Prediction & Optimization Analyzer   
 
 ## 🧠 Optimizing Urban Housing using Bio-Inspired Algorithms  
 
