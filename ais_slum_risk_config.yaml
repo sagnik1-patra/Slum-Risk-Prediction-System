@@ -1,0 +1,9 @@
+project_name: AIS Slum Risk Prediction System
+status: rule_based_only
+dataset_path: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\D25-HousingandSlumPopulation_8_2.csv
+outputs:
+  pkl: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\ais_slum_risk_model.pkl
+  result_csv: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\ais_slum_risk_results.csv
+  prediction_csv: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\ais_slum_risk_predictions.csv
+  result_graph: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\ais_result_distribution_graph.png
+  prediction_graph: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\ais_prediction_distribution_graph.png

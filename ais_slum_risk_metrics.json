@@ -1,0 +1,5 @@
+{
+    "status": "rule_based_only",
+    "rows": 1,
+    "message": "Add more rows for AIS training accuracy, heatmap, and comparison graph."
+}

@@ -1,0 +1,8 @@
+{
+    "status": "rule_based_only",
+    "rows": 1,
+    "risk_classes": [
+        "Low"
+    ],
+    "message": "Add more rows for ML accuracy, comparison graph, and heatmap."
+}

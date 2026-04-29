@@ -1,0 +1,27 @@
+project_name: Slum Risk Prediction System
+status: rule_based_only
+reason: Dataset too small for proper model training
+dataset_path: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\D25-HousingandSlumPopulation_8_2.csv
+feature_columns:
+- No. Notified Slums
+- No. of Recognised Slums
+- No. of Identfied Slums
+- Slum Population - Total
+- Slum Population - Male
+- Slum Population - Female
+- Slum Population - Child (0-6)
+- Population - SC Category
+- Population - ST Category
+- Literacy Rate (%)
+- Total Slums
+- Slum Density Score
+- Gender Gap
+- Child Population Ratio
+- SC ST Population
+- Vulnerability Score
+target_column: Risk Level
+outputs:
+  result_csv: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\slum_risk_results.csv
+  prediction_csv: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\slum_risk_predictions.csv
+  result_graph: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\result_distribution_graph.png
+  prediction_graph: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\prediction_distribution_graph.png
