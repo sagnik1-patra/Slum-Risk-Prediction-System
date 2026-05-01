@@ -1,0 +1,34 @@
+project_name: GWOA Slum Risk Prediction System
+algorithm: Grey Wolf Optimization Algorithm
+dataset_path: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\D25-HousingandSlumPopulation_8_2.csv
+target_column: Risk
+features:
+- No. Notified Slums
+- No. of Recognised Slums
+- No. of Identfied Slums
+- Slum Population - Total
+- Slum Population - Male
+- Slum Population - Female
+- Slum Population - Child (0-6)
+- Population - SC Category
+- Population - ST Category
+- Literacy Rate (%)
+- Total Slums
+- Slum Density
+- Gender Gap
+- Child Ratio
+- SC ST Population
+- Vulnerability Score
+outputs:
+  all_data_csv: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\gwoa_all_data.csv
+  result_csv: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\gwoa_results.csv
+  prediction_csv: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\gwoa_predictions.csv
+  model: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\gwoa_model.pkl
+  metrics: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\gwoa_metrics.json
+  config: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\gwoa_config.yaml
+  convergence_graph: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\gwoa_convergence.png
+  heatmap: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\gwoa_heatmap.png
+  accuracy_graph: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\gwoa_accuracy.png
+  result_distribution_graph: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\gwoa_result_dist.png
+  prediction_distribution_graph: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\gwoa_prediction_dist.png
+  vulnerability_score_graph: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\gwoa_vulnerability_score_graph.png
