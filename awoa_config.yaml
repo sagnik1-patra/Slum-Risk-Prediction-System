@@ -1,0 +1,30 @@
+project_name: AWOA Slum Risk Prediction System
+algorithm: Hybrid Whale Optimization Algorithm + Ant Lion Optimization Algorithm
+dataset_path: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\D25-HousingandSlumPopulation_8_2.csv
+target_column: Risk
+features:
+- No. Notified Slums
+- No. of Recognised Slums
+- No. of Identfied Slums
+- Slum Population - Total
+- Slum Population - Male
+- Slum Population - Female
+- Slum Population - Child (0-6)
+- Population - SC Category
+- Population - ST Category
+- Literacy Rate (%)
+- Total
+- Density
+- Score
+outputs:
+  all_data_csv: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\awoa_all_data.csv
+  result_csv: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\awoa_results.csv
+  prediction_csv: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\awoa_predictions.csv
+  model: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\awoa_model.pkl
+  metrics: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\awoa_metrics.json
+  config: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\awoa_config.yaml
+  convergence_graph: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\awoa_convergence.png
+  heatmap: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\awoa_heatmap.png
+  accuracy_graph: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\awoa_accuracy.png
+  result_distribution_graph: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\awoa_result_dist.png
+  prediction_distribution_graph: C:\Users\NXTWAVE\Downloads\Slum Risk Prediction System\awoa_prediction_dist.png
